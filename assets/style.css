@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+   padding: 0;
+   margin: 0;
+}
+p{
+   font-size: 1.2rem;
+   color: #869AB8;
+}
+a{
+   text-decoration: none;
+   color: #fff;
+}
+ul li{
+   list-style: none;;
+}
+.row > div {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+/**nav heading section start***/
+.nav-bar{
+height:70px;
+}
+.nav-link{
+   font-size: 1.2rem;
+   color: #ccc;
+}
+.navbar-brand {
+   margin-left: 90px;
+   font-weight: 700;
+   font-size: 1.6rem;
+   color: blue!important;
+}
+
+.nav-btn{
+   margin-right: 90px;
+   padding: 7px 30px;
+}
+#hero-banner h1{
+font-size: 3rem;
+padding-top:60px;
+font-family: roboto;
+font-weight: 600;
+}
+.text-s{
+   color: blue;
+}
+.bn-btn1{
+   padding: 10px 25px;
+}
+.bn-btn2{
+   padding: 10px 40px;
+   margin-left: 10px;
+}
+#Service-box h1{
+   font-size: 1.8rem;
+   margin-top: 15px;
+}
+/*footer section*/
+#footer{
+   background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #36d1dc, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: #fff;
+   margin-top: 20px;
+}
+#footer h1{
+   font-size: 1.8rem;
+   font-family: roboto;
+   font-weight: 800;
+
+}
+#footer p{
+   color: #fff;
+   margin-top: 10px;
+}
+.f-mhd{
+   font-size: 1rem;
+   margin-bottom: 20px;
+   font-weight: 500;
+}
+.social_icon{
+   text-align: right;
+}
+.social_icon li {
+ display: inline;
+ margin-left: 20px;
+}
+/*google map* start*/
+.map-container{
+overflow:hidden;
+padding-bottom:20.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*google map end*/
+.tol{
+   background-color: #000;
+   color: #fff;
+   min-width: 200px;
+   min-height: 35px;
+}
+ /* counter up section start */
+#counter-up1{
+   width: 100%;
+   padding: 100px 0;
+   background: #FF5733;
+   font-size: 4rem;
+   font-weight: 700;
+   color: #fff;
+   margin: 20px 0;
+   text-align: center;
+
+} 
+#counter-up1 h1{
+   font-size: 3rem;
+}
